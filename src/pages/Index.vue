@@ -3,18 +3,14 @@
     <main>
       <header>
         <div class="text-center">
-          <div class="flex content-center">
-            <g-image
-              class="mx-auto rounded-full w-1/3 sm:w-1/4 md:w-1/4"
-              src="~/assets/images/beard_.png"
-            />
+          <div class="flex my-8 content-center">
+            <img class="mx-auto rounded-full w-1/2 sm:w-1/4 md:w-1/4" src="/images/beard_.png">
           </div>
 
           <h1 class="mb-3 text-3xl md:text-5xl font-sans">
-            <g-link to="/" class="text-black">
-              Barba Dev
-              <span class="text-gray-400">eloper</span>
-            </g-link>
+            <span class="text-black">
+              Barba Dev<span class="text-gray-400">eloper</span>
+            </span>
           </h1>
           <!-- <p class="text-gray-700 text-2xl">JavaScript/TypeScript FullStack</p> -->
           <p class="text-gray-700 text-lg max-w-xl md:max-w-2xl xl:max-w-2xl mx-auto px-8">
@@ -30,16 +26,20 @@
         <nav class="w-64 md:w-72 py-10 mx-auto">
           <ul class="flex items-start">
             <li class="flex-1">
-              <a href="https://www.linkedin.com/in/fernando-monteiro-69881b28" target="_blank" rel="noopener noreferrer">
+              <a
+                class="text-gray-400 hover:text-blue-800"
+                href="https://www.linkedin.com/in/fernando-monteiro-69881b28"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <svg
-                  class="text-gray-400 mx-auto"
+                  class="fill-current mx-auto"
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   viewBox="0 0 20 20"
                   id="entypo-linkedin-with-circle"
-                  width="32"
-                  height="32"
-                  fill="currentColor"
+                  width="36"
+                  height="36"
                 >
                   <g>
                     <path
@@ -51,16 +51,20 @@
             </li>
 
             <li class="flex-1">
-              <a href="https://twitter.com/newaeonweb" target="_blank" rel="noopener noreferrer">
+              <a
+                class="text-gray-400 hover:text-blue-500"
+                href="https://twitter.com/newaeonweb"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <svg
-                  class="text-gray-400 mx-auto"
+                  class="fill-current mx-auto"
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   viewBox="0 0 20 20"
                   id="entypo-twitter-with-circle"
-                  width="32"
-                  height="32"
-                  fill="currentColor"
+                  width="36"
+                  height="36"
                 >
                   <g>
                     <path
@@ -71,16 +75,20 @@
               </a>
             </li>
             <li class="flex-1">
-              <a href="https://github.com/newaeonweb" target="_blank" rel="noopener noreferrer">
+              <a
+                class="text-gray-400 hover:text-gray-900"
+                href="https://github.com/newaeonweb"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <svg
-                  class="text-gray-400 mx-auto"
+                  class="fill-current mx-auto"
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   viewBox="0 0 20 20"
                   id="entypo-github-with-circle"
-                  width="32"
-                  height="32"
-                  fill="currentColor"
+                  width="36"
+                  height="36"
                 >
                   <g>
                     <path
