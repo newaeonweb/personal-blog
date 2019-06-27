@@ -1,0 +1,10 @@
+*.log
+.cache
+.vscode
+src/.temp
+scripts/*
+node_modules
+dist
+static/feed.xml
+.DS_Store
+

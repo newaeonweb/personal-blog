@@ -1,0 +1,31 @@
+/*! purgecss start ignore */
+@import 'tailwindcss/base';
+/*! purgecss end ignore */
+
+@import 'components/resets';
+
+@import 'tailwindcss/components';
+
+@import 'components/markdown';
+
+@import 'tailwindcss/utilities';
+
+code[class*='language-'],
+pre[class*='language-'] {
+  font-size: 0.8em !important;
+  -moz-tab-size: 2 !important;
+  -o-tab-size: 2 !important;
+  tab-size: 2 !important;
+}
+
+pre[class*='language-'] {
+  border-radius: 0 !important;
+  margin: 1.5em 0 !important;
+}
+
+/* :not(pre) > code[class*='language-'] {
+  padding: 0.1em 0.5em !important;
+  border-radius: 0 !important;
+  background-color: rgb(64, 64, 65) !important;
+  word-wrap: unset !important;
+} */
