@@ -3,7 +3,6 @@ title: Aplicação Restful VueJS com Loopback.io. Part II
 slug: aplicacao-restful-vue-js-com-loopback-io-part-ii
 description: "Continuando o post anterior vamos ver como criar um **datasource** para guardar as informações de conexão com nosso banco de dados, para esse exemplo vamos utilizar o MongoDB. Então assumimos que você já tenha instalado em sua maquina."
 date: 2019-04-28
-author: Barba
 tags: [Back-end]
 keys: [Loopback, VUEJS]
 cover: https://placeimg.com/1220/900/tech

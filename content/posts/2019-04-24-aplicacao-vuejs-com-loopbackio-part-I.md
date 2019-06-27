@@ -2,10 +2,10 @@
 title: Aplicação Restful VueJS com Loopback.io. Part I
 description: "Este artigo/projeto é um pequeno exemplo de como criar incriveis aplicações com VueJS no front-end e loopback.io no back-end com uma API Restful."
 date: 2019-04-24
-author: Barba
 tags: [Back-end]
 keys: [Loopback, VUEJS]
-cover: https://images.unsplash.com/photo-1539815913963-92c9bfeb9d1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&h=900&crop=bottom&q=80
+cover: https://placeimg.com/1220/900/tech
+fullscreen: true
 ---
 
 Este artigo/projeto é um pequeno exemplo de como criar incriveis aplicações com VueJS no front-end e loopback.io no back-end com uma API Restful. **Mas você pode utilizar qualquer framework para SPA**. Nesta serie nos vamos ver:
