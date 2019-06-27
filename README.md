@@ -2,9 +2,9 @@
 
 # BarbaDev Personal Blog
 
-You can see in action [here]([https://link](https://barbadev.netlify.com/)).
+You can see in action [here](https://barbadev.netlify.com/).
 
-Very inspired by [Bleda Theme]([https://link](https://gridsome.org/starters/bleda)).
+Very inspired by [Bleda Theme](https://gridsome.org/starters/bleda).
 
 License: MIT.
 
