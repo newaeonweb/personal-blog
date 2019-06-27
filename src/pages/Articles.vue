@@ -27,32 +27,41 @@ export default {
   },
   metaInfo() {
     return {
-      title: "About",
+      title: "Articles",
       meta: [
         {
           key: "description",
           name: "description",
-          content: "Introduction to the Bleda blog starter for Gridsome."
+          content:
+            "Tech articles about: Angular, React, Vue, NodeJS e fullstack development."
         },
 
-        { property: "og:type", content: "article" },
-        { property: "og:title", content: "About" },
+        { property: "og:type", content: "Article" },
+        { property: "og:title", content: "Articles" },
         {
           property: "og:description",
-          content: "Introduction to the Bleda blog starter for Gridsome."
+          content:
+            "Tech articles about: Angular, React, Vue, NodeJS e fullstack development."
         },
-        { property: "og:url", content: `${this.config.siteUrl}/books/` },
-        { property: "og:image", content: "/images/bleda-card.png" },
+        { property: "og:url", content: `${this.config.siteUrl}/articles/` },
+        {
+          property: "og:image",
+          content: "/images/fullstack-angular-laravel-docker.png"
+        },
 
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: "About" },
+        { name: "twitter:title", content: "Articles" },
         {
           name: "twitter:description",
-          content: "Introduction to the Bleda blog starter for Gridsome."
+          content:
+            "Tech articles about: Angular, React, Vue, NodeJS e fullstack development."
         },
-        { name: "twitter:site", content: "@cossssmin" },
-        { name: "twitter:creator", content: "@cossssmin" },
-        { name: "twitter:image", content: "/images/bleda-card.png" }
+        { name: "twitter:site", content: "@newaeonweb" },
+        { name: "twitter:creator", content: "@newaeonweb" },
+        {
+          name: "twitter:image",
+          content: "/images/fullstack-angular-laravel-docker.png"
+        }
       ]
     };
   },

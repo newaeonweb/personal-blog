@@ -2,13 +2,13 @@
 title: How to build a Vue.js app With Loopback.io Rest API.
 description: "This article/project is a simple boilerplate to create awesome front-end apps using VueJS on front-end and Loopback.io on back-end."
 date: 2019-04-22
+author: Barba
 tags: [Back-end]
 keys: [Loopback, VUEJS]
 cover: https://placeimg.com/1220/900/tech
 fullscreen: true
 ---
 
-# How to build a VueJS application with Loopback.io Rest API.
 This article/project is a simple boilerplate to create awesome front-end apps using VueJS on front-end and Loopback.io on back-end. **BUT** *you can follow the same concept to use any SPA(Single Page Application)* framework you. In this series we will see:
 
 - Installing and setup Loopback.
@@ -33,7 +33,7 @@ This article/project is a simple boilerplate to create awesome front-end apps us
 
 You can found more infos about the frameworks we are using in this article:  [VueJS](https://vuejs.org/), and [LoopBack.io](http://loopback.io).
 
-# Getting Started
+## Getting Started
 As our first step, if you don't have yet, let's install our tools. This step assume that you already have NodeJS installed on your machine and you have a good understand about **SPA**, **web development** in general and of course: **JavaScript**, **HTML**.
 
 ## Installing LoopBack and Vue on your local machine.
@@ -99,7 +99,7 @@ create .editorconfig
 
 > Note the client directory, is where you must place all your front-end code.
 
-# Create a new front-end application
+## Create a new front-end application
 
 There are several ways to add the front-end code to a **loopback** application, however some ways suggest using separate builds and serve the code on a different port than the one used by default in **loopback**. In this case the port 3000.
 

@@ -119,8 +119,8 @@ export default {
           name: "twitter:description",
           content: this.description(this.$page.post)
         },
-        { name: "twitter:site", content: "@cossssmin" },
-        { name: "twitter:creator", content: "@cossssmin" },
+        { name: "twitter:site", content: "@newaeonweb" },
+        { name: "twitter:creator", content: "@newaeonweb" },
         { name: "twitter:image", content: this.ogImageUrl }
       ]
     };
@@ -176,7 +176,8 @@ export default {
     },
     ogImageUrl() {
       return (
-        this.$page.post.cover || `${this.config.siteUrl}/images/bleda-card.png`
+        this.$page.post.cover ||
+        `${this.config.siteUrl}/images/fullstack-angular-laravel-docker.png`
       );
     }
   }

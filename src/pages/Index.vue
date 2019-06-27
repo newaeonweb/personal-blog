@@ -122,8 +122,8 @@ export default {
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: this.config.siteName },
         { name: "twitter:description", content: this.config.siteDescription },
-        { name: "twitter:site", content: "@cossssmin" },
-        { name: "twitter:creator", content: "@cossssmin" },
+        { name: "twitter:site", content: "@newaeonweb" },
+        { name: "twitter:creator", content: "@newaeonweb" },
         { name: "twitter:image", content: this.ogImageUrl }
       ]
     };
@@ -133,43 +133,11 @@ export default {
       return config;
     },
     ogImageUrl() {
-      return `${this.config.siteUrl}/images/bleda-card.png`;
+      return `${
+        this.config.siteUrl
+      }/images/fullstack-angular-laravel-docker.png`;
     }
   }
 };
 </script>
-
-<page-query>
-  query Home ($page: Int) {
-    posts: allPost (page: $page, perPage: 6) @paginate {
-      totalCount
-      pageInfo {
-        totalPages
-        currentPage
-      }
-      edges {
-        node {
-          id
-          title
-          datetime: date (format: "YYYY-MM-DD HH:mm:ss")
-          content
-          excerpt
-          description
-          path
-          cover
-          tags {
-            id
-            title
-            path
-          }
-          author {
-            id
-            title
-            path
-          }
-        }
-      }
-    }
-  }
-</page-query>
 
