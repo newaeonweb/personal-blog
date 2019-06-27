@@ -9,7 +9,7 @@ module.exports = {
   siteDescription: 'Personal blog by Barba Dev',
   siteUrl: 'https://barbadev.netlify.com',
   titleTemplate: `%s | Barbadev`,
-  icon: 'src/favicon.png',
+  icon: 'src/favicon.ico',
 
   transformers: {
     remark: {
