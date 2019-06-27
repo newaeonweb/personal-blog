@@ -30,7 +30,7 @@
         <nav class="w-64 md:w-72 py-10 mx-auto">
           <ul class="flex items-start">
             <li class="flex-1">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/fernando-monteiro-69881b28" target="_blank" rel="noopener noreferrer">
                 <svg
                   class="text-gray-400 mx-auto"
                   xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@
             </li>
 
             <li class="flex-1">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a href="https://twitter.com/newaeonweb" target="_blank" rel="noopener noreferrer">
                 <svg
                   class="text-gray-400 mx-auto"
                   xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@
               </a>
             </li>
             <li class="flex-1">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/newaeonweb" target="_blank" rel="noopener noreferrer">
                 <svg
                   class="text-gray-400 mx-auto"
                   xmlns="http://www.w3.org/2000/svg"
