@@ -41,7 +41,7 @@ export default {
           image: "responsiveboilerplatecover.jpg",
           title: "Responsive Boilerplate",
           description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quod laboriosam atque commodi aperiam aliquam consequuntur, error cumque perspiciatis quas expedita corporis dolorem vero libero incidunt necessitatibus vel eligendi nemo.",
+            "A lightweight (3kb) cross browser grid system, elegant & minimalist, made with only three main classes and 12 columns. Build with mobile first in mind, fits any screen size, pre-packed with some extra css helpers for mobile devices.",
           stack: "HTML5, CSS3, JavaScript"
         },
         {
@@ -97,14 +97,14 @@ export default {
         {
           key: "description",
           name: "description",
-          content: "OpenSource projects built with Angular, HTML5, CSS3, React."
+          content: "OpenSource projects and boilerplate codes: Angular, React, Laravel, Docker, ..."
         },
 
         { property: "og:type", content: "Projects" },
         { property: "og:title", content: "Projects" },
         {
           property: "og:description",
-          content: "OpenSource projects built with Angular, HTML5, CSS3, React."
+          content: "OpenSource projects and boilerplate codes: Angular, React, Laravel, Docker, ..."
         },
         { property: "og:url", content: `${this.config.siteUrl}/projects/` },
         {
@@ -116,7 +116,7 @@ export default {
         { name: "twitter:title", content: "Projects" },
         {
           name: "twitter:description",
-          content: "OpenSource projects built with Angular, HTML5, CSS3, React."
+          content: "OpenSource projects and boilerplate codes: Angular, React, Laravel, Docker, ..."
         },
         { name: "twitter:site", content: "@newaeonweb" },
         { name: "twitter:creator", content: "@newaeonweb" },

@@ -89,14 +89,14 @@ export default {
         {
           key: "description",
           name: "description",
-          content: "My Tech books available on @packtpub."
+          content: "My Tech books about fullStack JavaScript development available on @packtpub."
         },
 
         { property: "og:type", content: "Books" },
         { property: "og:title", content: "Books" },
         {
           property: "og:description",
-          content: "My Tech books available on @packtpub."
+          content: "My Tech books about fullStack JavaScript development available on @packtpub."
         },
         { property: "og:url", content: `${this.config.siteUrl}/books/` },
         {
@@ -108,7 +108,7 @@ export default {
         { name: "twitter:title", content: "Books" },
         {
           name: "twitter:description",
-          content: "My Tech books available on @packtpub."
+          content: "My Tech books about fullStack JavaScript development available on @packtpub."
         },
         { name: "twitter:site", content: "@newaeonweb" },
         { name: "twitter:creator", content: "@newaeonweb" },

@@ -6,7 +6,7 @@ class TailwindExtractor {
 
 module.exports = {
   siteName: 'Barba Dev Senior Front-end Developer',
-  siteDescription: 'Personal blog by Barba Dev',
+  siteDescription: 'Personal blog: Angular, React, Vue, FullStack, Docker',
   siteUrl: 'https://barbadev.netlify.com',
   titleTemplate: `%s | Barbadev`,
   icon: 'src/favicon.png',
