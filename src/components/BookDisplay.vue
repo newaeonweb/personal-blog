@@ -6,6 +6,9 @@
     <div class="w-full md:w-2/3 px-3">
       <h1 class="mb-2">{{ title }}</h1>
       <p>{{ description }}</p>
+      <ul>
+        <li v-for="(feature, index) in features" :key="`feat-${index}`">{{ feature }}</li>
+      </ul>
     </div>
   </div>
 </template>
@@ -15,7 +18,8 @@ export default {
   props: {
     image: String,
     title: String,
-    description: String
+    description: String,
+    features: Array
   }
 };
 </script>

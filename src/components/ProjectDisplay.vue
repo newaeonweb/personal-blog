@@ -10,10 +10,18 @@
         >
       </div>
       <p class="text-gray-700 p-2">{{ description }}</p>
-      <p class="uppercase text-center mt-4 mb-8">
+      <div class="uppercase text-center mt-4 mb-8">
         <strong class="block mb-2">Stack:</strong>
-        <span class="text-gray-800">{{ stack }}</span>
-      </p>
+        <span class="text-gray-600">
+          <ul class="flex flex-wrap items-center">
+            <li
+              class="inline p-2"
+              v-for="(feature, index) in features"
+              :key="`feat-${index}`"
+            >{{ feature }}</li>
+          </ul>
+        </span>
+      </div>
     </div>
   </div>
 </template>
@@ -24,7 +32,7 @@ export default {
     image: String,
     title: String,
     description: String,
-    stack: String
+    features: Array
   }
 };
 </script>
