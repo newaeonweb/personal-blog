@@ -16,10 +16,12 @@
         </ul>
       </div>
     </div>
-    <div class="w-full text-center md:text-right pr-2 pb-2">
-      <button class="bg-blue-500 hover:bg-blue-700 text-white text-sm py-2 px-4">
-        Buy on Packtpub
-      </button>
+    <div class="w-full text-center md:text-right pr-2 pb-3">
+      <a
+        :href="link"
+        target="_blank"
+        class="bg-gray-500 hover:bg-orange-500 text-white text-sm py-2 px-4"
+      >Buy on Packtpub</a>
     </div>
   </div>
 </template>
@@ -32,7 +34,8 @@ export default {
     description: String,
     pages: String,
     release: String,
-    features: Array
+    features: Array,
+    link: String
   }
 };
 </script>

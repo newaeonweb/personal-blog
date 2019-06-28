@@ -15,6 +15,7 @@
           :title="book.title"
           :description="book.description"
           :features="book.features"
+          :link="book.link"
         />
       </article>
     </main>
@@ -53,7 +54,9 @@ export default {
             "Deal with token based authentication.",
             "Deploy using Docker and Docker-compose.",
             "How to use Laravel Resources and Eloquent ORM."
-          ]
+          ],
+          link:
+            "https://www.packtpub.com/web-development/hands-full-stack-web-development-angular-6-and-laravel-5"
         },
         {
           image: "node.JS-6.x-blueprints.jpg",
@@ -68,7 +71,8 @@ export default {
             "Build solid architectures by following test-driven development.",
             "Build, Deploy, Docker, and continuous delivery.",
             "MongoDB and Geospatial Query."
-          ]
+          ],
+          link: "https://www.packtpub.com/web-development/nodejs-6x-blueprints"
         },
         {
           image: "angularJS-directives-cookbook.jpg",
@@ -83,7 +87,9 @@ export default {
             "Extend directives to use dynamic templates.",
             "Write unit test for directives using the Karma.",
             "Jasmine’s behavior-driven development framework."
-          ]
+          ],
+          link:
+            "https://www.packtpub.com/web-development/angularjs-directives-cookbook"
         },
         {
           image: "learning-single-page-web-application-development.jpg",
@@ -98,7 +104,9 @@ export default {
             "Configure an AngularJS application using modules.",
             "Event-driven development and the event loop.",
             "Test AngularJS applications with Karma and Protractor."
-          ]
+          ],
+          link:
+            "https://www.packtpub.com/web-development/learning-single-page-web-application-development"
         },
         {
           image: "HTML5-responsive-table-design.jpg",
@@ -113,7 +121,9 @@ export default {
             "Apply filters to columns, hide less important data.",
             "How to load content dynamically.",
             "Converting tables into charts on mobile devices."
-          ]
+          ],
+          link:
+            "https://www.amazon.com/gp/product/B00CIT30ZS/ref=dbs_a_def_rwt_bibl_vppi_i1"
         },
         {
           image: "node-projects-video.jpg",
@@ -128,7 +138,8 @@ export default {
             "Develop SPA using Node.js with AngularJS, Ember.js, and Backbone.js.",
             "Create a real-time chat application with Socket.IO",
             "Create three-four complete projects from scratch"
-          ]
+          ],
+          link: "https://www.packtpub.com/web-development/nodejs-projects"
         },
         {
           image: "nodejs-creating-applications-from-scratch.jpg",
@@ -143,7 +154,9 @@ export default {
             "Integrate Socke.io with Express.",
             "Use Redis and Socket.io to make dynamic sites.",
             "By the end of this course, you’ll be a skilled Node.js developer."
-          ]
+          ],
+          link:
+            "https://www.packtpub.com/web-development/nodejs-creating-applications-scratch"
         }
       ]
     };
