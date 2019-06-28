@@ -12,7 +12,7 @@
           :image="project.image"
           :title="project.title"
           :description="project.description"
-          :stack="project.stack"
+          :features="project.features"
         />
       </article>
     </main>
@@ -42,50 +42,110 @@ export default {
           title: "Responsive Boilerplate",
           description:
             "A lightweight (3kb) cross browser grid system, elegant & minimalist, made with only three main classes and 12 columns. Build with mobile first in mind, fits any screen size, pre-packed with some extra css helpers for mobile devices.",
-          stack: "HTML5, CSS3, JavaScript"
+          features: ["HTML5", "CSS3", "JavaScript"]
         },
         {
           image: "newaeonserver.png",
           title: "JWT NewAeonServer",
           description:
             "Fake back-end Restful API powered by JsonWebToken, Json-Server and ApiDoc. A small deadly simple server, including endpoints to: Signup, Login, Refresh Token, Chance Profile Password, Reset Password and User Roles.",
-          stack: "JavaScript, NodeJS, JsonServer, JsonWebToken, APIDoc, Chota"
+          features: [
+            "JavaScript",
+            "NodeJS",
+            "JsonServer",
+            "JsonWebToken",
+            "APIDoc",
+            "Chota"
+          ]
         },
         {
           image: "trellometrics.png",
           title: "TrelloMetrics",
           description:
             "The easiest way for teams to track their work and results when working with Trello boards. Using Trello API and authentication to view your team boards, projects and members, including a lot of graphics.",
-          stack:
-            "AngulaJS 1.5, ChartJS, C3JS, D3JS, Satelizer, Bootstrap, Heroku, CodeShip"
+          features: [
+            "AngulaJS",
+            "ChartJS",
+            "C3JS/D3JS",
+            "Satelizer",
+            "Bootstrap",
+            "Heroku",
+            "CodeShip"
+          ]
         },
         {
           image: "genomeasy.png",
           title: "Genomeasy",
           description:
             "Genomeasy is a browser-based genome viewer. It is designed to facilitate the investigation of evidence for genomic variants within larger web applications.",
-          stack: "React, Bootstrap, JQuery, PileupJS, Heroku, Circle CI"
+          features: [
+            "React",
+            "Bootstrap",
+            "JQuery",
+            "PileupJS",
+            "Heroku",
+            "Circle CI"
+          ]
         },
         {
           image: "frontendboilerplate.png",
           title: "Frontend Boilerplate",
           description:
             "Frontend Boilerplate is a simple Gruntfile and directory structure for an easy starting point with web applications using: Grunt and Bower. It is designed to give you a quick and organized way to start developing web apps with best practices in mind.",
-          stack: "GruntJS, Bower, Sass, Less, HTML5, Yeoman"
+          features: ["GruntJS", "Bower", "Sass", "Less", "HTML5", "Yeoman"]
         },
         {
           image: "generator-angm.png",
           title: "ANGM-Generator",
           description:
             "AngularJS Yeoman Generator to help you getting started with a new project based on AngularJS and Angular Material to build large scale applications. ",
-          stack: "AngularJS, Angular-Material, Yeoman"
+          features: ["AngularJS", "Angular-Material", "Yeoman"]
         },
         {
           image: "responsiveaeoncover.jpg",
           title: "ResponsiveAeon CSS Grid",
           description:
             "Lightweight Responsive CSS Grid System, build to be Simple Fast and Intuitive, only 1kb minified.",
-          stack: "HTML5, CSS3"
+          features: ["HTML5", "CSS3"]
+        },
+        {
+          image: "sasacover.jpg",
+          title: "SASa Grid-Block!",
+          description: "Modular SCSS components with Typograph and Grids.",
+          features: ["SCSS", "CSS3"]
+        },
+        {
+          image: "extensionpack.png",
+          title: "VsCode Productivity Pack",
+          description:
+            "VsCode Extension package including uitlities for: Angular, Ruby on Rails, Linters, Converters and much more.",
+          features: ["TypeScript"]
+        },
+        {
+          image: "rbuicover.jpg",
+          title: "UI Components for Responsive Boilerplate",
+          description:
+            "Simple JavaScript and CSS components to use with Responsive Boilerplate.",
+          features: ["HTML5", "LESS", "JavaScript"]
+        },
+        {
+          image: "sasa-jekyllcover.jpg",
+          title: "Sasa Jekyll Theme",
+          description: "Simple responsive theme for Jekyll static generator",
+          features: ["HTML5", "SASS", "JavaScript"]
+        },
+        {
+          image: "punkipacover.png",
+          title: "PunkIPA Beer Search",
+          description: "Simple beer search built with PunkIPA API",
+          features: ["Bootstrap", "Angular", "JavaScript"]
+        },
+        {
+          image: "formula1cover.png",
+          title: "Formula 1 BB",
+          description:
+            "Simple races, winners and results search. With season filter, including Rounds, Circuits, Drivers and Constructors",
+          features: ["Bootstrap", "Angular", "JavaScript"]
         }
       ]
     };
@@ -97,14 +157,16 @@ export default {
         {
           key: "description",
           name: "description",
-          content: "OpenSource projects and boilerplate codes: Angular, React, Laravel, Docker, ..."
+          content:
+            "OpenSource projects and boilerplate codes: Angular, React, Laravel, Docker, ..."
         },
 
         { property: "og:type", content: "Projects" },
         { property: "og:title", content: "Projects" },
         {
           property: "og:description",
-          content: "OpenSource projects and boilerplate codes: Angular, React, Laravel, Docker, ..."
+          content:
+            "OpenSource projects and boilerplate codes: Angular, React, Laravel, Docker, ..."
         },
         { property: "og:url", content: `${this.config.siteUrl}/projects/` },
         {
@@ -116,7 +178,8 @@ export default {
         { name: "twitter:title", content: "Projects" },
         {
           name: "twitter:description",
-          content: "OpenSource projects and boilerplate codes: Angular, React, Laravel, Docker, ..."
+          content:
+            "OpenSource projects and boilerplate codes: Angular, React, Laravel, Docker, ..."
         },
         { name: "twitter:site", content: "@newaeonweb" },
         { name: "twitter:creator", content: "@newaeonweb" },
