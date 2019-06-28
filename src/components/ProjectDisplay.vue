@@ -1,5 +1,25 @@
 <template>
-  <div class="flex flex-wrap border-gray-400 border-dotted border-b-2">
+  <div class="w-full sm:w-1/2 md:w-1/2 px-4 text-center">
+    <div class="rounded overflow-hidden shadow-lg border mt-8">
+      <div class="object-cover h-auto w-auto border-b border-gray-800">
+        <img class="w-full medium-zoom-image" :src="'/images/projects/' + image" :alt="title">
+      </div>
+
+      <div class="px-6 py-4">
+        <div class="font-bold font-sans text-xl mb-2">{{ title }}</div>
+        <p class="text-gray-700 text-base">{{ description }}</p>
+      </div>
+      <div class="px-6 py-4 uppercase">
+        <span
+          v-for="(feature, index) in features"
+          :key="`feat-${index}`"
+          class="inline-block bg-gray-200 px-3 py-1 text-sm text-gray-700 mr-2 mb-2"
+        >{{feature}}</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="flex flex-wrap border-gray-400 border-dotted border-b-2">
     <div class="w-4/5 mx-auto">
       <h1 class="my-4 text-center">{{ title }}</h1>
       <div class="my-4">
@@ -23,7 +43,7 @@
         </span>
       </div>
     </div>
-  </div>
+  </div>-->
 </template>
 
 <script>
