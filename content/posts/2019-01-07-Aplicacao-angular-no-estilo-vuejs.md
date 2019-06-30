@@ -4,7 +4,7 @@ description: "O desafio é construir uma pequena aplicação utilizando Angular 
 date: 2019-01-07 10:27:52
 author:
 tags: [Front-end]
-cover: /images/posts/bg_master_head.jpeg
+cover: /images/posts/bg_master_head_2.jpeg
 fullscreen: false
 ---
 

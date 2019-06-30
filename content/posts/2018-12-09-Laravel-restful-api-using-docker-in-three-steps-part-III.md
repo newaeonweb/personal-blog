@@ -4,7 +4,7 @@ description: "In this post series we will see how to build a Laravel Restful app
 tags: [Back-end, Docker]
 date: 2018-12-09
 author:
-cover: /images/posts/bg_master_head.jpeg
+cover: /images/posts/bg_master_head_2.jpeg
 fullscreen: true
 ---
 
