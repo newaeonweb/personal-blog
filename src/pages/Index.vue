@@ -4,7 +4,7 @@
       <header>
         <div class="text-center">
           <div class="flex my-8 content-center">
-            <img class="mx-auto rounded-full" src="/images/beard_200.png" />
+            <img class="mx-auto rounded-full" src="/images/beard_200.png" alt="FullStack Developer" />
           </div>
 
           <h1 class="mb-3 text-3xl md:text-5xl font-sans">
