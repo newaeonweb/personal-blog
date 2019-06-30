@@ -32,18 +32,25 @@ export default {
   methods: {
     previousPage(currentPage) {
       return [0, 1].includes(currentPage - 1)
-        ? `${this.basePath}/articles/`
-        : `${this.basePath}/articles/${currentPage - 1}/`;
+        ? `${this.basePath}/`
+        : `${this.basePath}/${currentPage - 1}/`;
     },
     nextPage(currentPage, totalPages) {
       return totalPages > currentPage
-        ? `${this.basePath}/articles/${currentPage + 1}/`
-        : `${this.basePath}/articles/${currentPage}/`;
+        ? `${this.basePath}/${currentPage + 1}/`
+        : `${this.basePath}/${currentPage}/`;
     }
   },
   computed: {
     basePath() {
-      return this.base || "";
+      if (
+        this.$page.tag &&
+        this.$route.path === "/tag/" + this.$page.tag.title
+      ) {
+        return this.base || "/tag/";
+      } else {
+        return this.base || "/articles";
+      }
     }
   }
 };
