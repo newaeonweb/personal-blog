@@ -58,10 +58,10 @@
   }
 
   a {
-    @apply text-blue-500 transition-color;
+    @apply text-orange-500 transition-color;
 
     &:hover {
-      @apply text-blue-700;
+      @apply text-orange-700;
     }
   }
 

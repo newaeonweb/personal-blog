@@ -32,7 +32,7 @@ Aqui esta a interface das duas aplicações e a estrutura de diretórios:
 
 ## Componentes
 
-Neste exemplo eu utilizei o mesmo tipo de estrutura proposta pelo VUEJS para criar a aplicação em ANGULAR, é possível notar que estou utilizando apenas um arquivo **ts**: `cards.component.ts` com template e estilo inline, dessa maneira conseguimos manter tudo em um arquivo ([aqui você encontra como utilizar o Angular-Cli para gerar sua aplicação.](http://newaeonweb.com.br/front-end/2018/12/31/Angular-application-done-right/)), de acordo com a proposta do VUEJS e seus arquivos `.vue`, como podemos abservar em `Cards.vue`, nesse arquivo nos temos: O **HTML**, o **CSS** e o **JavaScript** em um único lugar.
+Neste exemplo eu utilizei o mesmo tipo de estrutura proposta pelo VUEJS para criar a aplicação em ANGULAR, é possível notar que estou utilizando apenas um arquivo **ts**: `cards.component.ts` com template e estilo inline, dessa maneira conseguimos manter tudo em um arquivo ([aqui você encontra como utilizar o Angular-Cli para gerar sua aplicação.](/articles/angular-applications-done-right-using-angular-cli)), de acordo com a proposta do VUEJS e seus arquivos `.vue`, como podemos abservar em `Cards.vue`, nesse arquivo nos temos: O **HTML**, o **CSS** e o **JavaScript** em um único lugar.
 
 1- Angular: `cards.component.ts`:
 

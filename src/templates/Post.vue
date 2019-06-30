@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <main>
-      <post-header :post="$page.post"/>
+      <post-header :post="$page.post" />
       <article
         class="max-w-4xl mx-auto px-4 py-8 md:p-8 px-6 pt-16"
         :class="{'border-b border-grey-lighter pb-10 mb-16': !$page.post.author}"
@@ -23,7 +23,7 @@
               v-for="tag in $page.post.tags"
               :key="tag.id"
               :to="`${tag.path}/`"
-              class="inline-block text-teal-400 hover:text-white hover:bg-teal-400 border border-teal-400 font-sans font-bold text-xs sm:text-sm px-4 py-2 mr-4 mb-2 rounded-full transition-color transition-bg"
+              class="inline-block text-orange-500 hover:text-white hover:bg-orange-500 border border-orange-500 font-sans font-bold text-xs sm:text-sm px-4 py-2 mr-4 mb-2 transition-color transition-bg"
             >
               <svg
                 class="inline w-3 fill-current align-middle mr-1"
@@ -33,7 +33,7 @@
               >
                 <path
                   d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"
-                ></path>
+                />
               </svg>
               {{ tag.title }}
             </g-link>
@@ -50,7 +50,7 @@
                   @error="imageLoadError"
                   width="100"
                   class="rounded-full p-4 sm:p-0"
-                >
+                />
               </g-link>
             </figure>
             <div class="px-4 sm:w-4/5 text-center sm:text-left">

@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-wrap my-12 shadow rounded">
     <div class="w-full md:mb-0 md:w-1/3">
-      <img class="mx-auto medium-zoom-image pt-4 pr-4 pl-4" :src="'/images/' + image" :alt="title">
+      <img class="mx-auto medium-zoom-image pt-4 pr-4 pl-4" :src="'/images/' + image" :alt="title" />
       <div class="font-light h-6 text-center text-sm">
         <span class="text-gray-800">Pages: {{ pages }} | Release: {{ release }}</span>
       </div>
@@ -16,7 +16,7 @@
         </ul>
       </div>
     </div>
-    <div class="w-full text-center md:text-right pr-2 pb-3">
+    <div class="w-full text-center md:text-right pr-4 pb-5">
       <a
         :href="link"
         target="_blank"
