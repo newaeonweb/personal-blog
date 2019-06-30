@@ -227,7 +227,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'Noto Sans',
+        // 'Noto Sans',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
@@ -242,7 +242,7 @@ module.exports = {
         '"Noto Color Emoji"',
       ],
       serif: [
-        'Noto Serif',
+        // 'Noto Serif',
         'Georgia',
         'Cambria',
         '"Times New Roman"',
