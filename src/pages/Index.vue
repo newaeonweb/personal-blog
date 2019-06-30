@@ -4,7 +4,7 @@
       <header>
         <div class="text-center">
           <div class="flex my-8 content-center">
-            <img class="mx-auto rounded-full w-1/2 sm:w-1/4 md:w-1/4" src="/images/beard_.png" />
+            <img class="mx-auto rounded-full" src="/images/beard_200.png" />
           </div>
 
           <h1 class="mb-3 text-3xl md:text-5xl font-sans">
