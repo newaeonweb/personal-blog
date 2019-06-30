@@ -23,6 +23,15 @@ pre[class*='language-'] {
   margin: 1.5em 0 !important;
 }
 
+/* Transition pages */
+.fade-enter-active {
+  transition: opacity 1s;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
 /* :not(pre) > code[class*='language-'] {
   padding: 0.1em 0.5em !important;
   border-radius: 0 !important;
