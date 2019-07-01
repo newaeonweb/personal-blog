@@ -4,6 +4,7 @@ description: "In this post series we will see how to build a Laravel Restful app
 date: 2018-12-31
 author:
 tags: [Front-end]
+keys: [Angular, TypeScript]
 cover: /images/posts/bg_master_head.jpeg
 fullscreen: true
 ---

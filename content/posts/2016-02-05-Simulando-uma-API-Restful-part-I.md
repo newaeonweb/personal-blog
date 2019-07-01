@@ -3,6 +3,7 @@ layout: post
 title: Simulando uma API Restful parte I
 description: "Como simular um API Restful para utilizar em qualquer framework de front-end como; AngularJS, Vue.js, Ember.js e outros"
 tags: [Front-end]
+keys: [NodeJS, Angular]
 date: 2016-02-05
 author:
 cover: /images/posts/bg_master_head.jpeg

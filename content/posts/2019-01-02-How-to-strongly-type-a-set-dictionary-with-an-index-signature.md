@@ -4,6 +4,7 @@ description: "Learn how to strongly type a set/dictionary with an index signatur
 date: 2019-01-02
 author:
 tags: [Front-end]
+keys: [TypeScript]
 cover: /images/posts/bg_master_head.jpeg
 fullscreen: false
 ---

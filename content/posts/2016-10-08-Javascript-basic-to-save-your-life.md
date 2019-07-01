@@ -3,6 +3,7 @@ layout: post
 title: JavaScript basic to save your life(time)
 description: "It is very common when we learn something and do not exercise, over time we forget, this is quite normal in everything we have learned and it is not different in web programming."
 tags: [Front-end]
+keys: [JavaScript]
 date: 2016-10-08
 author:
 cover: /images/posts/bg_master_head.jpeg

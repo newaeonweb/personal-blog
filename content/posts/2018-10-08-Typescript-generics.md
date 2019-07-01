@@ -2,6 +2,7 @@
 title: TypeScript Generics
 description: "Generics is available in almost all typed languages. It allows transforming your code in a reusable fashion without having to rely on unsafe casting to retrieve the value stored in an object."
 tags: [Front-end]
+keys: [TypeScript]
 date: 2018-10-31
 author:
 cover: /images/posts/bg_master_head.jpeg

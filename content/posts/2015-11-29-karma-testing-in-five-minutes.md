@@ -3,6 +3,7 @@ layout: post
 title: Karma Testing in five minutes on AngularJS applications.
 description: "Aprenda como executar testes unitários em aplicações AngularJS em cinco minutos utilizando Angm-Generator"
 tags: [Front-end]
+keys: [Angular, Karma Runner]
 date: 2015-11-29
 author:
 cover: /images/posts/bg_master_head.jpeg
