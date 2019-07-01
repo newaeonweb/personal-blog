@@ -11,7 +11,7 @@
 @import 'tailwindcss/utilities';
 
 code {
-      word-break: break-all !important;
+  word-break: break-all !important;
 }
 
 code[class*='language-'],
