@@ -69,6 +69,7 @@
             </div>
           </div>
         </footer>
+        <social-share></social-share>
       </article>
     </main>
   </Layout>
@@ -82,11 +83,14 @@ import slugify from "@sindresorhus/slugify";
 import SiteFooter from "@/components/Footer";
 import PostHeader from "~/components/PostHeader";
 
+import SocialShare from "@/components/SocialShare";
+
 export default {
   components: {
     Alert,
     PostHeader,
-    SiteFooter
+    SiteFooter,
+    SocialShare
   },
   metaInfo() {
     return {
@@ -205,6 +209,7 @@ query Post ($path: String) {
       title
       path
     }
+    keys
   }
 }
 </page-query>
