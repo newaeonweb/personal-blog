@@ -5,6 +5,7 @@ description: "Learn how to launch Kubernetes in Microsoft Azure, Google Cloud, a
 date: 2019-01-01
 author:
 tags: [Docker]
+xrelated: Docker
 keys: [Docker, Kubernetes, DevOps]
 cover: /images/posts/bg_master_head_2.jpeg
 fullscreen: false
