@@ -45,6 +45,13 @@ export default {
           features: ["HTML5", "CSS3", "JavaScript"]
         },
         {
+          image: "ngrx-example.jpg",
+          title: "NGRX-Example",
+          description:
+            "A well structured Angular project built using NGRX state managemant, including auth module with signin, signup and logout.",
+          features: ["Angular", "NGRX-Store", "NGRX-Effects"]
+        },
+        {
           image: "generator-angm.png",
           title: "ANGM-Generator",
           description:
