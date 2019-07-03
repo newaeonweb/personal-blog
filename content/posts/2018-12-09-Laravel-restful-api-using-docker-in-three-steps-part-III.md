@@ -3,6 +3,7 @@ title: Laravel Restful API using Docker in three steps (Part III)
 description: "In this post series we will see how to build a Laravel Restful application. In addition we will see the basic functionalities of **Resources**"
 tags: [Back-end, Docker]
 keys: [Docker, Laravel, PHP]
+xrelated: Docker
 date: 2018-12-09
 author:
 cover: /images/posts/bg_master_head_2.jpeg
