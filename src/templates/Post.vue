@@ -69,6 +69,18 @@
             </div>
           </div>
         </footer>
+
+        <div v-if="$page.related.edges.length" class="mb-4">
+          <h2 class="font-sans mb-2">Related Posts:</h2>
+          <div v-for="post in $page.related.edges" :key="post.id">
+            <a
+              class="text-gray-800 hover:text-orange-500"
+              v-if="$page.post.title != post.node.title"
+              :href="post.node.path"
+            >{{post.node.datetime}} | {{ post.node.title}}</a>
+          </div>
+        </div>
+
         <social-share></social-share>
       </article>
     </main>
@@ -133,6 +145,11 @@ export default {
     import("medium-zoom").then(mediumZoom => {
       this.zoom = mediumZoom.default(".markdown p > img");
     });
+    console.log(
+      "--------------->",
+      this.$page.related.edges,
+      this.$route.path.replace(/\\/g, "")
+    );
   },
   methods: {
     imageLoadError(e) {
@@ -189,7 +206,7 @@ export default {
 </script>
 
 <page-query>
-query Post ($path: String) {
+query Post ($path: String, $xrelated: String) {
   post (path: $path) {
     title
     slug
@@ -210,6 +227,19 @@ query Post ($path: String) {
       path
     }
     keys
+    xrelated
   }
+  related: allPost(filter: { keys: { contains: [$xrelated] }}) {
+    edges {
+      node {
+        id
+        title
+        datetime: date (format: "YYYY-MM-DD")
+        path
+        keys
+      }
+    }
+  }
+
 }
 </page-query>
