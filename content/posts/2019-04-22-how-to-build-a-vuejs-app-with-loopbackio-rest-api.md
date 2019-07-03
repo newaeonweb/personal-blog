@@ -2,7 +2,7 @@
 title: How to build a Vue.js app With Loopback.io Rest API.
 description: "This article/project is a simple boilerplate to create awesome front-end apps using VueJS on front-end and Loopback.io on back-end."
 date: 2019-04-22
-author: Barba
+xrelated: Loopback
 tags: [Back-end]
 keys: [Loopback, VUEJS]
 cover: https://placeimg.com/1220/900/tech

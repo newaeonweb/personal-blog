@@ -2,6 +2,7 @@
 title: Aplicação Restful VueJS com Loopback.io. Part I
 description: "Este artigo/projeto é um pequeno exemplo de como criar incriveis aplicações com VueJS no front-end e loopback.io no back-end com uma API Restful."
 date: 2019-04-24
+xrelated: Loopback
 tags: [Back-end]
 keys: [Loopback, VUEJS]
 cover: https://placeimg.com/1220/900/tech
@@ -318,4 +319,4 @@ E graças ao pacote `parallelshell`. Nos podemos rodar mais de uma tarefa ao mes
 
 Bem, nos vimos uma grande quantidade de código até aqui, agora vamos fazer uma pausa e em breve partimos para o segundo artigo, onde mergulhamos mais a fundo no loopback.
 
-Esse post tem uma versão em Inglês [aqui]({{ site.url }}/front-end/2019/04/22/how-to-build-a-vuejs-app-with-loopbackio-rest-api).
+Esse post tem uma versão em Inglês [aqui](/articles/how-to-build-a-vue-js-app-with-loopback-io-rest-api).

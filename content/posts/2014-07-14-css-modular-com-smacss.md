@@ -2,8 +2,8 @@
 title: CSS Modular, SMACSS e OOCSS.
 description: "Modularizando o css de maneira inteligente. Entenda o que é BEM, SMACSS e OOCSS"
 tags: [Front-end]
+author: Barba
 date: 2014-07-15
-author:
 cover: /images/posts/smacss.jpg
 fullscreen: false
 ---
