@@ -17,7 +17,10 @@
         </div>
 
         <h2 class="text-3xl sm:text-4xl leading-tight font-sans mb-1 sm:mb-2">
-          <g-link :to="`${post.path}/`" class="text-black font-bold">{{ post.title }}</g-link>
+          <g-link
+            :to="`${post.path}/`"
+            class="text-gray-800 hover:text-orange-600 font-bold"
+          >{{ post.title }}</g-link>
         </h2>
       </header>
       <p class="text-gray-700" v-html="excerpt(post, 280, ' ...')"></p>
