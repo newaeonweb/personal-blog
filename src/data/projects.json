@@ -1,0 +1,157 @@
+[
+  {
+    "image": "responsiveboilerplatecover.jpg",
+    "title": "Responsive Boilerplate",
+    "description": "A lightweight (3kb) cross browser grid system, elegant & minimalist, made with only three main classes and 12 columns. Build with mobile first in mind, fits any screen size.",
+    "features": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ]
+  },
+  {
+    "image": "ngrx-example.jpg",
+    "title": "NGRX-Example",
+    "description": "A well structured Angular project built using NGRX state managemant, including auth module with signin, signup and logout.",
+    "features": [
+      "Angular",
+      "NGRX-Store",
+      "NGRX-Effects"
+    ]
+  },
+  {
+    "image": "generator-angm.png",
+    "title": "ANGM-Generator",
+    "description": "AngularJS Yeoman Generator to help you getting started with a new project based on AngularJS and Angular Material to build large scale applications.",
+    "features": [
+      "AngularJS",
+      "Material UI",
+      "Yeoman"
+    ]
+  },
+  {
+    "image": "newaeonserver.jpg",
+    "title": "JWT NewAeonServer",
+    "description": "Fake back-end Restful API powered by JsonWebToken, Json-Server and ApiDoc. Including endpoints to: Signup, Login, Refresh Token, Chance Profile Password, Reset Password and User Roles.",
+    "features": [
+      "JavaScript",
+      "NodeJS",
+      "JsonServer",
+      "JsonWebToken",
+      "APIDoc"
+    ]
+  },
+  {
+    "image": "trellometrics.png",
+    "title": "TrelloMetrics",
+    "description": "The easiest way for teams to track their work and results when working with Trello boards. Using Trello API and authentication to view your team boards, projects and members, including a lot of graphics.",
+    "features": [
+      "AngulaJS",
+      "ChartJS",
+      "C3JS/D3JS",
+      "Bootstrap",
+      "Heroku",
+      "CodeShip"
+    ]
+  },
+  {
+    "image": "genomeasy.png",
+    "title": "Genomeasy",
+    "description": "A browser-based genome viewer. It is designed to facilitate the investigation of evidence for genomic variants within larger web applications.",
+    "features": [
+      "React",
+      "Bootstrap",
+      "JQuery",
+      "PileupJS",
+      "Heroku",
+      "Circle CI"
+    ]
+  },
+  {
+    "image": "frontendboilerplate.png",
+    "title": "Frontend Boilerplate",
+    "description": "A simple Gruntfile and folder structure. It is designed to give you a quick and organized way to start developing web apps with best practices in mind.",
+    "features": [
+      "GruntJS",
+      "Bower",
+      "Sass",
+      "Less",
+      "HTML5",
+      "Yeoman"
+    ]
+  },
+  {
+    "image": "responsiveaeoncover.jpg",
+    "title": "ResponsiveAeon CSS Grid",
+    "description": "Lightweight Responsive CSS Grid System, build to be Simple Fast and Intuitive, only 1kb minified.",
+    "features": [
+      "CSS3"
+    ]
+  },
+  {
+    "image": "sasacover.jpg",
+    "title": "SASa Grid-Block!",
+    "description": "Modular SCSS components with Typograph and a Grids system, very flexible to create responsive web applications.",
+    "features": [
+      "SCSS"
+    ]
+  },
+  {
+    "image": "extensionpack.jpg",
+    "title": "VsCode Productivity Pack",
+    "description": "VsCode Extension package including uitlities for: Angular, Ruby on Rails, Linters, Converters and much more.",
+    "features": [
+      "TypeScript"
+    ]
+  },
+  {
+    "image": "rbuicover.jpg",
+    "title": "RB UI Components",
+    "description": "Simple LESS components to use with Responsive Boilerplate, buit with Grunt and Yeoman.",
+    "features": [
+      "HTML5",
+      "LESS",
+      "JavaScript"
+    ]
+  },
+  {
+    "image": "sasa-jekyllcover.jpg",
+    "title": "Sasa Jekyll Theme",
+    "description": "Simple responsive theme for Jekyll static generator.",
+    "features": [
+      "HTML5",
+      "SASS",
+      "JavaScript"
+    ]
+  },
+  {
+    "image": "punkipacover.jpg",
+    "title": "PunkIPA Beer Search",
+    "description": "Simple beer search app built with PunkIPA API.",
+    "features": [
+      "Bootstrap",
+      "Angular",
+      "TypeScript"
+    ]
+  },
+  {
+    "image": "formula1cover.jpg",
+    "title": "Formula 1 BB",
+    "description": "Races, winners and results search. Including Rounds, Circuits, Drivers and Constructors.",
+    "features": [
+      "Bootstrap",
+      "Angular",
+      "TypeScript"
+    ]
+  },
+  {
+    "image": "f7mobileboilerplate.jpg",
+    "title": "F7 Mobile Boilerplate",
+    "description": "Simple boilerplate for mobile development with Framework 7, Angular and Cordova.",
+    "features": [
+      "Framework 7",
+      "Angular",
+      "Cordova"
+    ]
+  }
+]
