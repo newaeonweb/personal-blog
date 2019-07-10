@@ -308,3 +308,5 @@ Agora você pode navegar até a raiz do site e conferir o resultado final: [http
 ![Grisome](/images/posts/gridsome-2.png)
 
 Bem simples de criar e muito fácil de escalar, na minha opinião ganhou do **Jekyll**, apenas por ser relativamente novo não existem muitos plugins para ele ainda, mas isso é questão de tempo. É também uma alternativa ao seu concorrente direto: **[Gatsby](https://www.gatsbyjs.org/)** que já possui um ecossistema um pouco melhor.
+
+Aqui esta o [link](https://github.com/newaeonweb/gridsome-blog-example) do projeto no **Github**.
