@@ -16,7 +16,7 @@
           <p
             class="text-gray-700 text-lg md:text-2xl max-w-xl md:max-w-2xl xl:max-w-2xl mx-auto px-8"
           >
-            I'm a FullStack Front‑end developer with 12+ years of professional experience,
+            I'm Senior Front‑end developer with 18+ years of professional experience,
             <a
               href="https://www.packtpub.com/authors/fernando-monteiro"
               target="_blank"
@@ -149,4 +149,3 @@ export default {
   }
 };
 </script>
-
