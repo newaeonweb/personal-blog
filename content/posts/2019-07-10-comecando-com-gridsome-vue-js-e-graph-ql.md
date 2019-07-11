@@ -1,8 +1,10 @@
 ---
 title: "Começando com Gridsome, VueJs e GraphQl"
 slug:
-description: ""
+description: "
+Neste post vou falar um pouco da minha experiência ao migrar me blog do **Jekyll** para o Gridsome, um gerador de site estático com VueJS e GraphQl muito inspirado pelo **Gatsby** que utiliza React."
 date: 2019-07-10 14:50:15
+xrelated: Gridsome
 tags: [Front-end]
 keys: [Gridsome, VUEJS]
 cover: https://placeimg.com/1220/900/tech
