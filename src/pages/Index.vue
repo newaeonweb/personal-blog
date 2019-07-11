@@ -4,7 +4,11 @@
       <header>
         <div class="text-center">
           <div class="flex my-8 content-center">
-            <img class="mx-auto rounded-full" src="/images/beard_200.png" alt="FullStack Developer" />
+            <img
+              class="mx-auto rounded-full"
+              src="/images/beard_200.png"
+              alt="FullStack Developer"
+            />
           </div>
 
           <h1 class="mb-3 text-3xl md:text-5xl font-sans">
@@ -16,12 +20,21 @@
           <p
             class="text-gray-700 text-lg md:text-2xl max-w-xl md:max-w-2xl xl:max-w-2xl mx-auto px-8"
           >
-            I'm Senior Front‑end developer with 18+ years of professional experience,
+            I'm Senior Front‑end developer with 18+ years of professional
+            experience,
             <a
               href="https://www.packtpub.com/authors/fernando-monteiro"
               target="_blank"
               class="text-orange-600 hover:text-orange-900"
-            >@packtpub</a> author and working fulltime with JavaScript/TypeScript and Angular.
+              >@packtpub</a
+            >
+            author and working fulltime with JavaScript/TypeScript and
+            <a
+              href="https://www.amazon.com/Fernando-Monteiro/e/B00J73VOHO"
+              target="_blank"
+              class="text-orange-600 hover:text-orange-900"
+              >Angular</a
+            >.
           </p>
         </div>
       </header>
@@ -144,7 +157,9 @@ export default {
       return config;
     },
     ogImageUrl() {
-      return `${this.config.siteUrl}/images/fullstack-angular-laravel-docker.png`;
+      return `${
+        this.config.siteUrl
+      }/images/fullstack-angular-laravel-docker.png`;
     }
   }
 };
