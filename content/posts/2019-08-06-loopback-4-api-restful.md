@@ -5,7 +5,7 @@ description: "Apresentando a nova versão do Loopback, agora ainda mais poderoso
 date: 2019-08-06 17:36:33
 xrelated: Loopback
 tags: [Back-end]
-keys: [Loopback, VUEJS]
+keys: [Loopback, Nodejs, Restful]
 cover: "/images/posts/bg_master_head.jpeg"
 fullscreen: false
 ---
