@@ -16,7 +16,7 @@ module.exports = {
     remark: {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      plugins: [['@gridsome/remark-prismjs']],
+      plugins: ['@gridsome/remark-prismjs'],
     },
   },
 

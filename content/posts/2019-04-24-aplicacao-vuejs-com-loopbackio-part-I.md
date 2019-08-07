@@ -174,7 +174,7 @@ Neste momento se executarmos o comando sugerido pelo Vue-cli e rodarmos o comand
 
 Como nos todos sabemos toda aplicaçõe **VueJS** vem por padrão com alguns scripts de comando para iniciar o servidor, linting e buid da aplicação, como nos podemos ver na tag **scripts** do arquivo **package.json**:
 
-```
+```json
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -189,7 +189,7 @@ Agora vamos fazer uns ajustes no arquivo `middleware.json` para configurar a pas
 
 6- Dentro da pasta **server**, abra o arquivo: `middleware.json` e adicione as seguintes linhas de código dentro da tag **files**:
 
-```
+```json
   "files": {
     "loopback#static": [{
         "name": "publicPath",
@@ -216,7 +216,7 @@ O próximo passo é adicionar as alterações no arquivo `package.json` dentro d
 
 8- Substitua o conteúdo do arquivo `server/package.json` pelo seguinte código:
 
-```
+```json
 {
   "name": "example",
   "version": "1.0.0",
@@ -291,7 +291,7 @@ A outra tarefa é para rodar o servido utilizando o **nodemon**.
 
 Mais uma alteração importante é adicionar a seguinte configuração:
 
-```
+```json
   "nodemonConfig": {
     "ignore": [
       "client/*"
