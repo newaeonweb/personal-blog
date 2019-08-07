@@ -224,8 +224,6 @@ import {Entity, model, property, belongsTo} from '@loopback/repository';
 import {Band} from './band.model';
 ```
 
-Note ai o `@belongsTo` e também o model Band.
-
 Logo abaixo da propriedade tracks, adicione:
 
 ```js
@@ -233,13 +231,14 @@ Logo abaixo da propriedade tracks, adicione:
   bandId: number;
 ```
 
-vamos fazer o mesmo para o arquivo: `src/models/band.model.ts`.
+Então vamos fazer o mesmo para o arquivo: `src/models/band.model.ts`.
 
 ```js
+import {Entity, model, property, hasMany} from '@loopback/repository';
 import {Release} from './release.model';
 ```
 
-E na propriedade release, utilize o seguinte código:
+E na propriedade **releases**, utilize o seguinte código:
 
 ```js
   @property({
@@ -250,6 +249,7 @@ E na propriedade release, utilize o seguinte código:
   releases: Release[];
 ```
 
+>Note ai o `@belongsTo` no Release model e também o `@hasMany` no model Band.
 
 Agora nossos modelos estão prontos, apesar de diferente, ainda continua fácil adicionar os relacionamentos, não?
 
