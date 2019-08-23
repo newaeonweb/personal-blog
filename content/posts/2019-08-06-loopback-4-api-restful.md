@@ -10,7 +10,7 @@ cover: "/images/posts/bg_master_head.jpeg"
 fullscreen: false
 ---
 
-Caso você ainda não tenha a nova CLI instalada, instale agora. Esse post é basicamente uma atualização [deste artigo](http://localhost:8080/articles/aplicacao-restful-vue-js-com-loopback-io-part-i) e também [deste arquivo](http://localhost:8080/articles/aplicacao-restful-vue-js-com-loopback-io-part-ii), onde ambos utilizavam a versão **3** do Loopback. Além disso, é uma jeito descomplicado de criar API, seguindo uma determinada ordem de passos que **não consta na documentação oficial**.
+Caso você ainda não tenha a nova CLI instalada, instale agora. Esse post é basicamente uma atualização [deste artigo](/articles/aplicacao-restful-vue-js-com-loopback-io-part-i) e também [deste arquivo](/articles/aplicacao-restful-vue-js-com-loopback-io-part-ii), onde ambos utilizavam a versão **3** do Loopback. Além disso, é uma jeito descomplicado de criar API, seguindo uma determinada ordem de passos que **não consta na documentação oficial**.
 
 ## Iniciando o projeto
 
