@@ -3,7 +3,6 @@ title: "Angular 8 e como utilizar mono-repositórios"
 slug:
 description: "Já se deparou com um projeto grande, grande mesmo? Não um CMS ou Ecommerce. Digo algo grande, com 5 ou 6 times trabalhando nele? Pensou em implementar Angular mas não sabe onde começar? Esse guia vai te ajudar a escolher a melhor forma de organizar o seu projeto e te ajudar nisso."
 date: 2019-09-09 16:19:04
-author: barba
 xrelated: Angular
 tags: [Front-end]
 keys: [Angular, Angular-Cli, Monorepo]
@@ -77,7 +76,7 @@ Em código nossa estrutura ficou como a imagem abaixo:
 
 ![angular-monorepo](/images/posts/monorepo_1.png)
 
-## Gerenciando build e testes
+## Gerenciando scripts e package.json
 
 Até aqui nada de muito especial, apenas a organização dos projetos. 
 
@@ -115,7 +114,7 @@ Desse jeito fica bem fácil de executar os projetos, além disso fica mais simpl
 |Admin| Painel Usuário| Time Mordor |
 |Dashboard| Gráficos | Time Rohan |
 
-Então por sua vez, cada time/squad escreve seus próprios scripts, e todos eles no mesmo `package.json`. Isso a principio parece ruim, vejamos 3 times com 2 ou 4 devs de front-end, que muitas vezes não dividem o mesmo escritório mexendo no mesmo arquivo.
+Então por sua vez, cada time/squad escreve seus próprios scripts, e todos eles no mesmo `package.json`. Isso a principio parece ruim, vejamos 3 times com 2 ou 4 devs de front-end, que muitas vezes não dividem o mesmo escritório mexendo no mesmo arquivo. Pode não ser fácil gerenciar esse processo.
 
 Uma dica simples é, manter apenas comandos genéricos nesse arquivo, exemplo:
 
@@ -137,7 +136,9 @@ Assim cada app pode evoluir separadamente ou em conjunto com o Core, fica a deci
 
 Se você esquecer isso, você vai quebrar a aplicação com certeza.
 
-## Compartilhando services/libs/components entre aplicação.
+## Compartilhando services/libs/components
+
+Não é porque estamos utilizando o conceito de monorepo ou workspace que essa tarefa é fácil, principalmente quando lidamos com muitos times, vamos a algumas alternativas.
 
 ### Services
 Pensando que a app **Core** comanda as demais (**Admin**, **Dashboard**), no nosso caso, ela controla a autenticação e a barra de navegação da aplicação, nos podemos utilizar **services**, dessa maneira os outros time/squads utilizam os serviços criados pelo time do Core app. Dessa mesma forma os outros times podem criar seus **services** e compartilhar com o Core.
