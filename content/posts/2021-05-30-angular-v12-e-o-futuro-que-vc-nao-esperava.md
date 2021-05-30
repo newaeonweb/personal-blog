@@ -10,8 +10,6 @@ cover: "/images/posts/bg_master_head.jpeg"
 fullscreen: true
 ---
 
-# Angular v12 e o futuro que você não esperava
-
 Sim isso parece ser um assunto um pouco controverso, mas em um futuro breve você vai ouvir alguns termos como: **SFC (Single File Component)**, **Less Angular**, **ngModule optional** e mais alguns outros, se ainda não sabe o que é isso, vamos lá...
 
 ## A transição do AngularJS para Angular2
