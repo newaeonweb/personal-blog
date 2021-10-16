@@ -2,7 +2,7 @@
 title: "Angular Material Mat-table server side pagination"
 slug:
 description: "Um problema muito comum que encontramos ao utilizar Angular Material é que as docs, por muitas vezes não são muito claras para determinadas situações, e isso impede de utilizarmos todo potencial de alguns componentes, como é o caso do Mat-table."
-date: 2021-10-5 10:19:04
+date: 2021-10-05 10:19:04
 xrelated: Angular
 tags: [Front-end]
 keys: [Angular, Angular-Cli, Angular12, AngularMaterial]
