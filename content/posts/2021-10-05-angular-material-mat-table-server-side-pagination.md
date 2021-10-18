@@ -12,11 +12,13 @@ fullscreen: true
 
 Um problema muito comum que encontramos ao utilizar Angular Material é que a documentação por muitas vezes não são muito claras para determinadas componentes, e isso impede de utilizarmos todo potencial de alguns componentes, como é o caso do Mat-table que pode ser utilizado sem um template de tabela, por exemplo.
 
+# Angular Material Mat-table server side pagination
+
 Nesse artigo, vou demonstrar como podemos utilizar paginação server-side, com `MatTableDataSource`, um campo de busca utilizando RXJS, um filtro e também como passar dados para o componente de modal com MatDialog(essa parte vou deixar um link para o código de exemplo no final, já que a documentação é bem exploratória nessa parte).
 
 Apesar do exemplo não utilizar a estrutura de tabela conforme a implementação mais utilizada com `td`, `tr` e etc..., como no exemplo abaixo:
 
-```
+```html
 <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
   <!-- Template de colunas -->
   <ng-container matColumnDef="position">
@@ -37,7 +39,7 @@ A seguir vamos ver como fica essa implementação.
 
 1. Iniciando as propriedade:
 
-```
+```ts
   characters$: Observable<Character[]>;
   characterDataSource: MatTableDataSource<Character>;
   characterDatabase = new HttpDatabase(this.httpClient);
@@ -45,7 +47,7 @@ A seguir vamos ver como fica essa implementação.
 
 2. Criando um serviço/classe para fazer o request na API. Nesse exemplo vamos utilizar o https://rickandmortyapi.com/ API.
 
-```
+```ts
 export class HttpDatabase {
   constructor(private _httpClient: HttpClient) {}
 
@@ -86,7 +88,7 @@ Sim poderíamos utilizar, mas essa é uma das varias maneiras de estruturar sua 
 
 ## Carregando os dados.
 
-```
+```ts
   loadData() {
     this.characterDatabase
       .search(this.searchTerm$)
@@ -114,7 +116,7 @@ Essa é a linha: `this.characters$ = this.characterDataSource.connect();` é que
 
 Aqui sim utilizamos o Pipe Async: `*ngFor="let char of characters$ | async"` para fazer a atualização dos dados:
 
-```
+```html
   <div class="flex-container">
     <mat-card class="flex-item card mat-elevation-z2" *ngFor="let char of characters$ | async">
       <mat-card-header>
@@ -138,7 +140,7 @@ Aqui sim utilizamos o Pipe Async: `*ngFor="let char of characters$ | async"` par
 
 ## Aplicando o filtro e reset na paginação
 
-```
+```ts
 applyFilter() {
     const filterValue = this.status;
     this.characterDataSource.filter = filterValue.trim().toLowerCase();
@@ -151,7 +153,7 @@ applyFilter() {
 
 Como estamos utilizando a paginação vindo do backend, sempre que um novo filtro for aplicado, precisamos voltar a primeira pagina.
 
-```
+```html
   <div class="flex-container">
     <mat-form-field>
       <mat-label>Filter</mat-label>
@@ -171,14 +173,9 @@ Entretanto utilizamos o `this.characterDataSource.disconnect();` quando o compon
 
 Aqui segue o código de exemplo completo no [Stackblitz](https://stackblitz.com/edit/angular-material-serverside-pagination-and-rxjs-search?embed=1&file=src/app/app.component.ts)
 
-<iframe src="https://stackblitz.com/edit/angular-material-serverside-pagination-and-rxjs-search?embed=1&file=src/app/app.component.ts" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://stackblitz.com/edit/angular-material-serverside-pagination-and-rxjs-search?embed=1&hideExplorer=1&hideNavigation=1&view=preview" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 ## Mais alguns exemplos úteis com Angular Material
 
-### Mat-tabs com http request utilizando iTunes Api
-
-<iframe src="https://stackblitz.com/edit/angular-material-tabs-with-serverside-data?embed=1&file=src/app/app.component.ts" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
-
-### Mat-table utilizando adapter e removendo linhas da tabela
-
-<iframe src="https://stackblitz.com/edit/angular-mat-table-remove-row-and-adapters?embed=1&file=src/app/user.service.ts" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+1. [Mat-tab com navegação e carregamento de dados do servidor.](https://stackblitz.com/edit/angular-material-tabs-with-serverside-data)
+2. [Mat-table utilizando adapter e removendo linhas da tabela](https://stackblitz.com/edit/angular-mat-table-remove-row-and-adapters)
