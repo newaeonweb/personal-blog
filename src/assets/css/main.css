@@ -11,10 +11,10 @@
 @import 'tailwindcss/utilities';
 
 a.active--exact {
-  @apply font-bold text-orange-500 transition-color;
+  @apply font-bold text-blue-700 transition-color;
 
     &:hover {
-      @apply text-orange-700;
+      @apply text-blue-500;
     }
 }
 

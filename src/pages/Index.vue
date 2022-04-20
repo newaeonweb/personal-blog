@@ -8,26 +8,26 @@
           </div>
 
           <h1 class="mb-3 text-3xl md:text-5xl font-sans">
-            <span class="text-black">
-              Barba Dev<span class="text-gray-400">eloper</span>
+            <span class="text-blue-700">
+              Barba Dev<span class="text-black">eloper</span>
             </span>
           </h1>
           <!-- <p class="text-gray-700 text-2xl">JavaScript/TypeScript FullStack</p> -->
           <p
-            class="text-gray-700 text-lg md:text-2xl max-w-xl md:max-w-2xl xl:max-w-2xl mx-auto px-8"
+            class="text-gray-900 text-lg md:text-2xl max-w-xl md:max-w-2xl xl:max-w-2xl mx-auto px-8"
           >
             I'm Senior Front‑end developer with 18+ years of professional
             experience,
             <a
               href="https://www.packtpub.com/authors/fernando-monteiro"
               target="_blank"
-              class="text-orange-600 hover:text-orange-900"
+              class="text-blue-700 hover:text-blue-500"
             >@packtpub</a>
             author and working fulltime with JavaScript/TypeScript and
             <a
               href="https://www.amazon.com/Fernando-Monteiro/e/B00J73VOHO"
               target="_blank"
-              class="text-orange-600 hover:text-orange-900"
+              class="text-blue-700 hover:text-blue-500"
             >Angular</a>.
           </p>
         </div>
@@ -37,10 +37,11 @@
           <ul class="flex items-start">
             <li class="flex-1">
               <a
-                class="text-gray-400 hover:text-blue-800"
+                class="text-gray-500 hover:text-blue-800"
                 href="https://www.linkedin.com/in/fernando-monteiro-69881b28"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="linkedin-link"
               >
                 <svg
                   class="fill-current mx-auto"
@@ -62,10 +63,11 @@
 
             <li class="flex-1">
               <a
-                class="text-gray-400 hover:text-blue-500"
+                class="text-gray-500 hover:text-blue-500"
                 href="https://twitter.com/newaeonweb"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="twitter-link"
               >
                 <svg
                   class="fill-current mx-auto"
@@ -86,10 +88,11 @@
             </li>
             <li class="flex-1">
               <a
-                class="text-gray-400 hover:text-gray-900"
+                class="text-gray-500 hover:text-gray-900"
                 href="https://github.com/newaeonweb"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="github-link"
               >
                 <svg
                   class="fill-current mx-auto"

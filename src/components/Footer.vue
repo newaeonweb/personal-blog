@@ -4,22 +4,22 @@
       <p>
         Built with
         <a
-          class="text-orange-600 border-b border-transparent hover:border-black transition-border-color hover:text-black transition-color"
+          class="text-blue-700 border-b border-transparent hover:border-black transition-border-color hover:text-black transition-color"
           href="https://gridsome.org"
           target="_blank"
         >Gridsome</a>,
         <a
           href="https://tailwindcss.com/"
-          class="text-orange-600 border-b border-transparent hover:border-black transition-border-color hover:text-black transition-color"
+          class="text-blue-700 border-b border-transparent hover:border-black transition-border-color hover:text-black transition-color"
           target="_blank"
         >Tailwind CSS</a>, listening:
         <a
-          class="text-orange-600 border-b border-transparent hover:border-black transition-border-color hover:text-black transition-color"
+          class="text-blue-700 border-b border-transparent hover:border-black transition-border-color hover:text-black transition-color"
           href="https://open.spotify.com/artist/6kACVPfCOnqzgfEF5ryl0x?autoplay=true&v=A"
           target="_blank"
         >Jhonny Cash</a> &amp;
         <a
-          class="text-orange-600 border-b border-transparent hover:border-black transition-border-color hover:text-black transition-color"
+          class="text-blue-700 border-b border-transparent hover:border-black transition-border-color hover:text-black transition-color"
           href="https://open.spotify.com/artist/2dyeCWctcFRt3Pha76ONgb?autoplay=true&v=A"
           target="_blank"
         >Hank Willians Jr</a>.
@@ -31,13 +31,13 @@
           <li class="px-2 inline border-r">
             <a
               href="/sitemap.xml"
-              class="border-b border-transparent hover:border-gray-400 transition-border-color"
+              class="border-b border-transparent hover:border-black transition-border-color"
             >Sitemap</a>
           </li>
           <li class="px-2 inline">
             <a
               href="/feed.xml"
-              class="border-b border-transparent hover:border-gray-400 transition-border-color"
+              class="border-b border-transparent hover:border-black transition-border-color"
             >RSS Feed</a>
           </li>
         </ul>
