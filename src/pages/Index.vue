@@ -9,7 +9,7 @@
 
           <h1 class="mb-3 text-3xl md:text-5xl font-sans">
             <span class="text-blue-700">
-              Barba Dev<span class="text-black">eloper</span>
+              Fernando Barba Dev<span class="text-black">eloper</span>
             </span>
           </h1>
           <!-- <p class="text-gray-700 text-2xl">JavaScript/TypeScript FullStack</p> -->
