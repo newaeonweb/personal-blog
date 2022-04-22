@@ -20,8 +20,8 @@
       <a
         :href="link"
         target="_blank"
-        class="bg-gray-500 hover:bg-orange-500 text-white text-sm py-2 px-4"
-      >Buy on Packtpub</a>
+        class="bg-blue-700 hover:bg-orange-700 text-white text-sm py-2 px-4"
+      >Buy this book on Packtpub</a>
     </div>
   </div>
 </template>

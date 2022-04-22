@@ -23,7 +23,7 @@
     </transition>
     <div class="w-full mx-auto text-center">
       <a
-        class="text-gray-400 hover:text-orange-400"
+        class="text-blue-700 hover:text-orange-700"
         v-if="$route.path === '/books' || $route.path === '/projects' || $route.path === '/articles'"
         href="#"
         v-scroll-to="'#app'"

@@ -11,7 +11,7 @@
           >&larr; Previous</g-link>
         </li>
         <li
-          class="md:flex w-auto text-center text-gray-600 text-base"
+          class="md:flex w-auto text-center text-blue-700 text-base"
         >Page {{ info.currentPage }} of {{ info.totalPages }}</li>
         <li class="lg:w-1/5 text-right">
           <g-link
